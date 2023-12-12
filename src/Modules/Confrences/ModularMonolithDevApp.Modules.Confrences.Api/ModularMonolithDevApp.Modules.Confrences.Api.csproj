@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\ModularMonolithDevApp.Shared.Infrastructure\ModularMonolithDevApp.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\ModularMonolithDevApp.Modules.Confrences.Core\ModularMonolithDevApp.Modules.Confrences.Core.csproj" />
+  </ItemGroup>
+
 </Project>
